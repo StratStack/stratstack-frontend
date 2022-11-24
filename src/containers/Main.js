@@ -16,7 +16,7 @@ import ContactUs from 'containers/ContactUs';
 import Terms from 'containers/Terms';
 import Privacy from 'containers/Privacy';
 import AboutUs from 'containers/AboutUs';
-import Page1 from 'containers/Test/page1.js';
+// import Page1 from 'containers/Test/page1.js';
 import withAuth from '../hocs/withAuth';
 
 const Main = (props) => {
@@ -24,7 +24,7 @@ const Main = (props) => {
 		props;
 	return (
 		<Switch>
-			<Route
+			{/* <Route
 				exact
 				path='/test'
 				render={(props) =>
@@ -34,7 +34,7 @@ const Main = (props) => {
 						<Redirect to='/admin/dashboard' />
 					)
 				}
-			/>
+			/> */}
 			<Route
 				exact
 				path='/signin'
