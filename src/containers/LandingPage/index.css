@@ -1,0 +1,144 @@
+.logoLanding {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+.mainLanding {
+	background-color: rgb(19, 12, 2);
+}
+/* SECTION ONE LANDING ===========================================*/
+.SectionOneLanding {
+	width: 95%;
+	height: 880px;
+	margin-top: -20px;
+	background-image: url('./Img/7.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@media only screen and (max-width: 770px) and (min-width: 320px) {
+	.SectionOneLanding {
+		background-position: right;
+	}
+}
+.SectionOneLandingBoxOne {
+	text-align: center;
+	height: 660px;
+	margin-top: 15%;
+	font-size: larger;
+	color: beige;
+}
+.SectionOneLandingBoxTwo {
+	/* padding: 70px 0; */
+	margin-top: 6%;
+	text-align: center;
+	background-image: url('./Img/13.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* SECTION TWO LANDING ===========================================*/
+.SectionTwoLanding {
+	background-color: rgb(255, 240, 221);
+	width: 95%;
+	height: 880px;
+	margin-top: -20px;
+	margin-bottom: 20px;
+	border-radius: 30px;
+	margin-left: 2.5%;
+	z-index: 3;
+	/* margin-right: 20px; */
+}
+.SectionTwoLandingBoxOne {
+	text-align: center;
+	height: 660px;
+	margin-top: 6%;
+	background-image: url('./Img/16.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.SectionTwoLandingBoxTwo {
+	padding: 70px 0;
+	margin-top: 6%;
+	text-align: center;
+}
+/* SECTION THREE LANDING ===========================================*/
+.SectionThreeLanding {
+	width: 95%;
+	height: 880px;
+	margin-top: -20px;
+	background-image: url('./Img/6.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+.SectionThreeLandingBoxOne {
+	margin-top: 6%;
+	text-align: center;
+	background-image: url('./Img/14.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.SectionThreeLandingBoxTwo {
+	/* padding: 70px 0; */
+	text-align: center;
+	height: 660px;
+	margin-top: 15%;
+	font-size: larger;
+	color: beige;
+}
+.landingFooter {
+	width: 95%;
+	text-align: center;
+	height: 80px;
+	/* background-color: rgb(255, 240, 221); */
+	z-index: 5;
+	position: absolute;
+}
+/* Virtual assistance ================================ */
+.vaDivActive {
+	position: fixed;
+	bottom: 140px;
+	right: 20px;
+	background-color: rgb(241, 237, 225);
+	border-radius: 15px;
+	box-shadow: 0px 0px 4px rgb(241, 237, 225);
+	/* display: none; */
+}
+.vaDivNotActive {
+	position: fixed;
+	bottom: 140px;
+	right: 20px;
+	background-color: rgb(241, 237, 225);
+	display: none;
+}
+.chatVAlanding {
+	width: 100%;
+	height: 400px;
+	border-radius: 15px;
+}
+.vaLogoActive {
+	bottom: 85px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	border-radius: 50%;
+	/* filter: grayscale(100%); */
+	background-image: url('./Img/va.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.vaLogoNotActive {
+	bottom: 85px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	border-radius: 50%;
+	filter: grayscale(100%);
+	background-image: url('./Img/va.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.vaLogoNotActive:hover {
+	filter: grayscale(2%);
+}
